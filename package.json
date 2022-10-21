@@ -1,7 +1,7 @@
 {
   "name": "{{projectName}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{description}}",
   "keywords": [],
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "dll": "webpack  --mode production  --profile --inline --config webpack.dll.config.js "
   },
-  "author": "ztao",
+  "author": "{{author}}",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
